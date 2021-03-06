@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.todo{
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr;
+   max-width: 1000px;
+   width: 70%;
+   margin: 0 auto;
+}
+.header{
+    max-width: 1000px;
+    width: 70%;
+    height: 80px;
+    margin: 10px auto;
+    background-color: rgb(97, 128, 129);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.padre{
+   
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 1px solid black;
+    margin: 10px 20px ;
+    padding: 6px;
+}
+.padre:hover{
+    box-shadow: 2px 2px 2px 2px black;
+}
+.arriba{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 200px;
+}
+
+.peunta{
+    background-color: cadetblue;
+    width: 300px;
+    min-height: 200px;
+    position: fixed;
+    margin-top:15%;
+    margin-left:40% ;
+    padding-left: 35px;
+    padding-top: 20px;
+    display: none;
+}
+
+
+
+.active{
+   display: block;
+}
+
+.peunta2{
+    background-color: cadetblue;
+    width: 300px;
+    min-height: 200px;
+    position: fixed;
+    margin-top:15%;
+    margin-left:40% ;
+    padding-left: 35px;
+    padding-top: 20px;
+    display: none;
+  
+}
+.active2{
+    display: block;
+ }
+
+ .peunta3{
+    background-color: cadetblue;
+    width: 300px;
+    min-height: 200px;
+    position: fixed;
+    margin-top:15%;
+    margin-left:40% ;
+    padding-left: 35px;
+    padding-top: 20px;
+    display: none;
+  
+}
+.active3{
+    display: block;
+ }
+
+ .peunta4{
+    background-color: cadetblue;
+    width: 300px;
+    min-height: 200px;
+    position: fixed;
+    margin-top:15%;
+    margin-left:40% ;
+    padding-left: 35px;
+    padding-top: 20px;
+    display: none;
+  
+}
+.active4{
+    display: block;
+ }
+
+ .peunta5{
+    background-color: cadetblue;
+    width: 300px;
+    min-height: 200px;
+    position: fixed;
+    margin-top:15%;
+    margin-left:40% ;
+    padding-left: 35px;
+    padding-top: 20px;
+    display: none;
+  
+}
+.active5{
+    display: block;
+ }
+ .peunta6{
+    background-color: cadetblue;
+    width: 300px;
+    min-height: 200px;
+    position: fixed;
+    margin-top:15%;
+    margin-left:40% ;
+    padding-left: 35px;
+    padding-top: 20px;
+    display: none;
+}
+.active6{
+    display: block;
+ }
+
+
+ .peunta7{
+    background-color: cadetblue;
+    width: 300px;
+    min-height: 200px;
+    position: fixed;
+    margin-top:15%;
+    margin-left:40% ;
+    padding-left: 35px;
+    padding-top: 20px;
+    display: none;
+  
+}
+.active7{
+    display: block;
+ }
+ .peunta8{
+    background-color: cadetblue;
+    width: 300px;
+    min-height: 200px;
+    position: fixed;
+    margin-top:15%;
+    margin-left:40% ;
+    padding-left: 35px;
+    padding-top: 20px;
+    display: none;
+  
+}
+.active8{
+    display: block;
+ }
